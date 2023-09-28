@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-27T23:49:00 EEST" name="Default suite" finished-at="2023-09-27T23:51:30 EEST" duration-ms="149858">
+    <groups>
+    </groups>
+    <test started-at="2023-09-27T23:49:00 EEST" name="Default test" finished-at="2023-09-27T23:51:30 EEST" duration-ms="149858">
+      <class name="TestCases">
+        <test-method is-config="true" signature="MyBeforTest()[pri:0, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:49:00 EEST" name="MyBeforTest" finished-at="2023-09-27T23:49:16 EEST" duration-ms="15585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyBeforTest -->
+        <test-method signature="CheckLanguage()[pri:1, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:49:16 EEST" name="CheckLanguage" finished-at="2023-09-27T23:49:16 EEST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLanguage -->
+        <test-method signature="CheckCurrency()[pri:2, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:49:16 EEST" name="CheckCurrency" finished-at="2023-09-27T23:49:16 EEST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCurrency -->
+        <test-method signature="CheckContactNumber()[pri:3, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:49:16 EEST" name="CheckContactNumber" finished-at="2023-09-27T23:49:16 EEST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckContactNumber -->
+        <test-method signature="CheckQitafLogoIsThere()[pri:4, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:49:16 EEST" name="CheckQitafLogoIsThere" description="Test # 4" finished-at="2023-09-27T23:49:17 EEST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQitafLogoIsThere -->
+        <test-method signature="Hotels_Tab_Not_selected()[pri:5, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:49:17 EEST" name="Hotels_Tab_Not_selected" description="Test # 5" finished-at="2023-09-27T23:49:17 EEST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hotels_Tab_Not_selected -->
+        <test-method signature="Check_departure_date()[pri:6, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:49:17 EEST" name="Check_departure_date" description="Test # 6 " finished-at="2023-09-27T23:49:17 EEST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_departure_date -->
+        <test-method signature="Check_return_date()[pri:7, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:49:17 EEST" name="Check_return_date" description="Test # 7 " finished-at="2023-09-27T23:49:17 EEST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_return_date -->
+        <test-method signature="Check_Language()[pri:8, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:49:17 EEST" name="Check_Language" description="Test # 8 " finished-at="2023-09-27T23:49:28 EEST" duration-ms="11551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Language -->
+        <test-method signature="Search_in_hotel_tab()[pri:9, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:49:28 EEST" name="Search_in_hotel_tab" description="Test # 9" finished-at="2023-09-27T23:50:48 EEST" duration-ms="80083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_in_hotel_tab -->
+        <test-method signature="NumberOfvisitorsInHotel()[pri:10, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:50:48 EEST" name="NumberOfvisitorsInHotel" description="test case # 10" finished-at="2023-09-27T23:50:49 EEST" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NumberOfvisitorsInHotel -->
+        <test-method signature="searchOnHotle()[pri:11, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:50:49 EEST" name="searchOnHotle" description="Test # 11" finished-at="2023-09-27T23:50:50 EEST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnHotle -->
+        <test-method signature="Full_loading()[pri:12, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:50:50 EEST" name="Full_loading" description="Test # 12" finished-at="2023-09-27T23:51:28 EEST" duration-ms="38132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Full_loading -->
+        <test-method signature="Sorting_from_lowest_to_highest_price()[pri:13, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:51:28 EEST" name="Sorting_from_lowest_to_highest_price" description="Test # 13" finished-at="2023-09-27T23:51:30 EEST" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sorting_from_lowest_to_highest_price -->
+        <test-method is-config="true" signature="MyAfterTest()[pri:0, instance:TestCases@77b9d0c7]" started-at="2023-09-27T23:51:30 EEST" name="MyAfterTest" finished-at="2023-09-27T23:51:30 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAfterTest -->
+      </class> <!-- TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
